@@ -1,0 +1,70 @@
+.background {
+  background: static_url("images/background_2.png") repeat-y;
+}
+
+.stickyClose {
+	background-image: static_url("images/smallclose.png") !important;
+	background-repeat: no-repeat !important;
+	border: none !important;
+}
+
+.stickyClose:active {
+	background-image: static_url("images/smallcloseover.png") !important;
+}
+
+.stickyClose span,.stickyControl span {
+	background-image: none !important;
+	background-color: none !important;
+}
+
+.stickyControl {
+	color: #fff !important;
+	font-weight: bold;
+	background-color: #000;
+	opacity: 0.65;
+	text-shadow: none !important;
+}
+
+.stickyControl:active {
+	background-color: #444;
+}
+
+.stickyControl {
+	border: 2px solid black !important;
+	border-radius: 5px;
+	z-index: 8;
+}
+
+.sticky {
+	background-image: static_url("images/stickie.png");
+	background-position: center middle;
+	background-repeat: no-repeat;
+	cursor: move;
+}
+
+.sticky textarea {
+	overflow: hidden;
+}
+
+.sticky span.border {
+	display: none;
+}
+
+.sticky label {
+	background: none !important;
+}
+
+.sticky textarea:focus {
+	outline: none !important;
+	border: none !important;
+}
+
+.sticky label.focus {
+	outline: none !important;
+	border: none !important;
+	outline: none !important;
+	border: none !important;
+	box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+}
